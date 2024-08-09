@@ -1,19 +1,27 @@
 {
     "products" : [
         {
-            "id": "DevProxy",
-            "displayName": "Dev Proxy",
-            "searchKeyword": "Dev Proxy",
+            "id": "Microsoft 365 Copilot",
+            "displayName": "Copilot for Microsoft 365",
+            "searchKeyword": "Microsoft 365 Copilot",
             "order": 100,
             "visible": true
         },
         {
-            "id": "Microsoft 365 Copilot",
-            "displayName": "Copilot for Microsoft 365",
-            "searchKeyword": "Microsoft 365 Copilot",
+            "id": "DevProxy",
+            "displayName": "Dev Proxy",
+            "searchKeyword": "Dev Proxy",
             "order": 200,
             "visible": true
         },
+        {
+            "id": "AIBuilder",
+            "displayName": "AI Builder",
+            "searchKeyword": "AIBuilder",
+            "searchKeywordAliases": "AIBuilder,AI Builder",
+            "order": 250,
+            "visible": true
+        },        
         {
             "id": "AzureAD",
             "displayName": "Microsoft Entra ID",
@@ -22,6 +30,14 @@
             "order": 300,
             "visible": true
         },
+        {
+            "id": "CopilotStudio",
+            "displayName": "Copilot Studio",
+            "searchKeyword": "CopilotStudio",
+            "searchKeywordAliases": "CopilotStudio,Copilot Studio",
+            "order": 350,
+            "visible": true
+        },        
         {
             "id": "Microsoft Graph",
             "displayName": "Microsoft Graph",
@@ -107,6 +123,13 @@
             "visible": true
         },
         {
+            "id": "PowerPages",
+            "displayName": "Power Pages",
+            "searchKeyword": "Power Pages",
+            "order": 1550,
+            "visible": true
+        },        
+        {
             "id": "SharePoint",
             "displayName": "SharePoint",
             "searchKeyword": "SharePoint",
@@ -126,6 +149,83 @@
             "searchKeyword": "Teams Global Hack",
             "order": 20000,
             "visible": false
-        }
+        },
+        {
+            "id": "powerplatform-prompts",
+            "displayName": "Power Platform Prompts",
+            "searchKeyword": "powerplatform-prompts",
+            "order": 30000,
+            "visible": false
+        },
+        {
+            "id": "ai-builder-prompts",
+            "displayName": "AI Builder Prompts",
+            "searchKeyword": "ai-builder-prompts",
+            "order": 30001,
+            "visible": false
+        },
+        {
+            "id": "copilot-studio-prompts",
+            "displayName": "Copilot Studio Prompts",
+            "searchKeyword": "copilot-studio-prompts",
+            "order": 30002,
+            "visible": false
+        },
+        {
+            "id": "power-apps-prompts",
+            "displayName": "Power Apps Prompts",
+            "searchKeyword": "power-apps-prompts",
+            "order": 30003,
+            "visible": false
+        },
+        {
+            "id": "power-automate-prompts",
+            "displayName": "Power Automate Prompts",
+            "searchKeyword": "power-automate-prompts",
+            "order": 30004,
+            "visible": false
+        },
+        {
+            "id": "power-pages-prompts",
+            "displayName": "Power Pages Prompts",
+            "searchKeyword": "power-pages-prompts",
+            "order": 30005,
+            "visible": false
+        },
+        {
+            "id": "powerplatform-snippets",
+            "displayName": "Power Platform Snippets",
+            "searchKeyword": "powerplatform-snippets",
+            "order": 30020,
+            "visible": false
+        },
+        {
+            "id": "copilot-studio-snippets",
+            "displayName": "Copilot Studio Snippets",
+            "searchKeyword": "copilot-studio-snippets",
+            "order": 30021,
+            "visible": false
+        },
+        {
+            "id": "power-apps-snippets",
+            "displayName": "Power Apps Snippets",
+            "searchKeyword": "power-apps-snippets",
+            "order": 30022,
+            "visible": false
+        },
+        {
+            "id": "pad-snippets",
+            "displayName": "Power Automate Desktop Snippets",
+            "searchKeyword": "pad-snippets",
+            "order": 30023,
+            "visible": false
+        },
+        {
+            "id": "power-pages-snippets",
+            "displayName": "Power Pages Snippets",
+            "searchKeyword": "power-pages-snippets",
+            "order": 30024,
+            "visible": false
+        }     
     ]    
 }

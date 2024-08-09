@@ -46,10 +46,6 @@
             "relativeUrl": "pnp/powerapps-samples"
         },
         {
-            "name": "Power Fx Samples",
-            "relativeUrl": "pnp/powerfx-samples"
-        },
-        {
             "name": "Power Automate Samples",
             "relativeUrl": "pnp/powerautomate-samples"
         },
@@ -96,6 +92,10 @@
             "relativeUrl": "pnp/powerplatform-prompts"
         },
         {
+            "name": "Power Platform Snippets",
+            "relativeUrl": "pnp/powerplatform-snippets"
+        },
+        {
             "name": "Microsoft 365 Developer Proxy samples",
             "relativeUrl": "pnp/proxy-samples"
         },
@@ -116,8 +116,21 @@
             "relativeUrl": "microsoftgraph/msgraph-sample-github-connector-typescript"
         },
         {
-            "name": "Microsoft 365 Copilot plugins samples",
-            "relativeUrl": "OfficeDev/M365-Copilot-Plugins-Samples"
+            "name": "Copilot for Microsoft 365 plugins samples",
+            "relativeUrl": "OfficeDev/Copilot-for-M365-Plugins-Samples"
+        },
+        {
+            "name": "Power Apps PCF controls",
+            "relativeUrl": "microsoft/PowerApps-Samples",
+            "baselinePath": "component-framework"
+        },
+        {
+            "name": "Viva Bot Powered ACEs",
+            "relativeUrl": "pnp/viva-dev-bot-powered-aces"
+        },
+        {
+            "name": "Copilot prompts",
+            "relativeUrl": "pnp/copilot-prompts"
         }
     ]
 }
