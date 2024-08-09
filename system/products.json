@@ -1,112 +1,131 @@
 {
     "products" : [
         {
-            "id": "MicrosoftLists",
-            "displayName": "Microsoft Lists",
-            "searchKeyword": "Microsoft Lists",
-            "order": 10
-        },
-        {
-            "id": "MicrosoftTeams",
-            "displayName": "Microsoft Teams",
-            "searchKeyword": "Teams",
-            "order": 20
-        },
-        {
-            "id": "MicrosoftTeamsToolkit",
-            "displayName": "Microsoft Teams Toolkit",
-            "searchKeyword": "TeamsToolkit",
-            "order": 25
-        },        
-        {
-            "id": "AzureAD",
-            "displayName": "Azure AD",
-            "searchKeyword": "AzureAD",
-            "order": 30
-        },
-        {
-            "id": "Office",
-            "displayName": "Office",
-            "searchKeyword": "Office",
-            "order": 32
-        },        
-        {
-            "id": "PowerApps",
-            "displayName": "Power Apps",
-            "searchKeyword": "Power Apps",
-            "order": 35
-        },
-        {
-            "id": "PowerAutomate",
-            "displayName": "Power Automate",
-            "searchKeyword": "Power Automate",
-            "order": 40
-        },
-        {
-            "id": "PowerFx",
-            "displayName": "Power Fx",
-            "searchKeyword": "Power Fx",
-            "order": 45
-        },
-        {
-            "id": "SharePoint",
-            "displayName": "SharePoint",
-            "searchKeyword": "SharePoint",
-            "order": 50
-        },
-        {
-            "id": "Viva",
-            "displayName": "Viva",
-            "searchKeyword": "Viva",
-            "order": 60
+            "id": "DevProxy",
+            "displayName": "Dev Proxy",
+            "searchKeyword": "Dev Proxy",
+            "order": 100,
+            "visible": true
         },
         {
             "id": "Microsoft 365 Copilot",
-            "displayName": "Microsoft 365 Copilot",
+            "displayName": "Copilot for Microsoft 365",
             "searchKeyword": "Microsoft 365 Copilot",
-            "order": 65
+            "order": 200,
+            "visible": true
+        },
+        {
+            "id": "AzureAD",
+            "displayName": "Microsoft Entra ID",
+            "searchKeyword": "EntraID",
+            "searchKeywordAliases": "AzureAD,EntraID,Entra ID,Azure Entra ID,Microsoft Entra ID",
+            "order": 300,
+            "visible": true
         },
         {
             "id": "Microsoft Graph",
             "displayName": "Microsoft Graph",
             "searchKeyword": "Microsoft Graph",
-            "order": 70
+            "order": 400,
+            "visible": true
         },
         {
             "id": "Microsoft Graph connectors",
             "displayName": "Microsoft Graph connectors",
             "searchKeyword": "Microsoft Graph connectors",
-            "order": 75
+            "order": 500,
+            "visible": true
         },
         {
             "id": "Microsoft Graph Toolkit",
             "displayName": "Microsoft Graph Toolkit",
             "searchKeyword": "Microsoft Graph Toolkit",
-            "order": 80
+            "order": 600,
+            "visible": true
         },
         {
-            "id": "Microsoft365DeveloperProxy",
-            "displayName": "Microsoft 365 Developer Proxy",
-            "searchKeyword": "Microsoft 365 Developer Proxy",
-            "order": 85
+            "id": "MicrosoftLists",
+            "displayName": "Microsoft Lists",
+            "searchKeyword": "Microsoft Lists",
+            "order": 700,
+            "visible": true
         },
         {
-            "id": "OneDrive",
-            "displayName": "OneDrive",
-            "searchKeyword": "OneDrive",
-            "order": 90
+            "id": "MicrosoftTeams",
+            "displayName": "Microsoft Teams",
+            "searchKeyword": "Teams",
+            "order": 800,
+            "visible": true
+        },
+        {
+            "id": "MicrosoftTeamsToolkit",
+            "displayName": "Microsoft Teams Toolkit",
+            "searchKeyword": "TeamsToolkit",
+            "order": 900,
+            "visible": true
         },
         {
             "id": "Microsoft To Do",
             "displayName": "Microsoft To Do",
             "searchKeyword": "Microsoft To Do",
-            "order": 90
+            "order": 1000,
+            "visible": true
+        },
+        {
+            "id": "Office",
+            "displayName": "Office",
+            "searchKeyword": "Office",
+            "order": 1100,
+            "visible": true
+        },
+        {
+            "id": "OneDrive",
+            "displayName": "OneDrive",
+            "searchKeyword": "OneDrive",
+            "order": 1200,
+            "visible": true
+        },
+        {
+            "id": "PowerApps",
+            "displayName": "Power Apps",
+            "searchKeyword": "Power Apps",
+            "order": 1300,
+            "visible": true
+        },
+        {
+            "id": "PowerAutomate",
+            "displayName": "Power Automate",
+            "searchKeyword": "Power Automate",
+            "order": 1400,
+            "visible": true
+        },
+        {
+            "id": "PowerFx",
+            "displayName": "Power Fx",
+            "searchKeyword": "Power Fx",
+            "order": 1500,
+            "visible": true
+        },
+        {
+            "id": "SharePoint",
+            "displayName": "SharePoint",
+            "searchKeyword": "SharePoint",
+            "order": 1600,
+            "visible": true
+        },
+        {
+            "id": "Viva",
+            "displayName": "Viva",
+            "searchKeyword": "Viva",
+            "order": 1700,
+            "visible": true
         },
         {
             "id": "Teams Global Hack",
             "displayName": "Teams Global Hack",
             "searchKeyword": "Teams Global Hack",
-            "order": 100
+            "order": 20000,
+            "visible": false
         }
     ]    
 }
