@@ -51,6 +51,15 @@
             ]
         },
         {
+            "id": "SAMPLE-TYPE",
+            "displayName": "Sample type",
+            "description": "The type of sample",
+            "values": [
+                "SPFx-WebPart",
+                "SPFx-Extension"
+            ]
+        },
+        {
             "id": "GRAPH-APIS",
             "displayName": "Used Microsoft Graph APIs",
             "description": "List of used Microsoft Graph APIs",
